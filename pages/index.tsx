@@ -1,15 +1,20 @@
 import React from "react";
 
-import { Container, Header, Main, Footer, Cards } from "@components";
+import {
+    Container,
+    Header,
+    Main,
+    Footer,
+    Cards,
+} from "@components/PreInstalledThings";
+import { Banner, CTA } from "@components/Home";
 
 const Home: React.FC = () => {
     return (
-        <Container>
-            <Header />
-            <Main />
-            <Cards />
-            <Footer />
-        </Container>
+        <>
+            <Banner />
+            <CTA />
+        </>
     );
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button } from "@components";
+import { Button } from "@components/PreInstalledThings";
 
 export const Main: React.FC = () => {
     return (
